@@ -1,0 +1,8 @@
+.compare > .col-lg-4{
+    border-left: 1px solid rgb(221, 220, 220);
+    border-top: 1px solid rgb(221, 220, 220);
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.compare > .col-lg-4:last-child{
+    border-right: 1px solid rgb(221, 220, 220);
+}

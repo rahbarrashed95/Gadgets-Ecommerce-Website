@@ -1,0 +1,116 @@
+.product-content .product-title{
+    font-weight: bold;
+    font-family: var(--semi);
+}
+.coupon-tag{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    background: linear-gradient(45deg, #120d5a, #010138);
+    border-radius: 50px;
+    justify-content: space-around;
+}
+.badge-box .badge{
+    padding: 3px;
+}
+.whatsapp_gradient{
+    background: linear-gradient(45deg, rgba(37,211,102,.8), #189d7f);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.color_box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.color_box span{
+    padding-right: 30px;
+}
+.color_box .colors{
+    display: flex;
+    align-items: center;
+}
+.color_box .colors .color{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    outline: 1px solid rgba(128, 128, 128, 0.473);
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.568);
+    cursor: pointer;
+}
+.qty-btn-box{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.qty-btn-box .qty-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qty-btn-box .qty-box .btn{
+    width: 50px;
+    border: 1px solid orange;
+    background: transparent;
+}
+.qty-btn-box .qty-box .qty{
+    width: 60px;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+#myTabs li a.active{
+    background-color: rgb(250, 142, 0) !important;
+    color: white;
+    font-family: var(--semi);
+    border: none;
+    
+}
+.related{
+    margin-top: 9px;
+    border: 1px solid #e7e7e7;
+}
+#myTabs li a{
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    line-height: 2;
+}
+#myTabs li {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.bg-sky{
+    padding: 10px;  
+    background: rgb(232, 246, 252);
+    color: blue;
+}
+.related .product{
+    display: flex;
+    align-items: start;
+    padding: 10px;
+}
+.related .product:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+}
+.related .product .content{
+    margin-left: 10px;
+}
+.related .product .content .btn *{
+    /* font-family: var(--semi); */
+    font-weight: bold;
+    font-size: var(--font-14);
+}
+
+.product-slider-nav .slick-slide.slick-current img{
+    border: 3px solid var(--primary);
+}
+.tab-pane img{
+    max-width: 100%;
+}

@@ -1,0 +1,182 @@
+.product-box{
+    /* padding-top: 30px; */
+}
+.product_col{
+    width: 180px;
+}
+@media (max-width: 550px) {
+    .product_col{
+        width: 180px;
+    }
+}
+@media (max-width: 380px) {
+    .product_col{
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) and () {
+    .product_col{
+        max-width: 205px !important;
+        min-width: 180px !important;
+        width: auto !important;
+
+    }
+}
+@media (min-width: 1380px) {
+    .product_col{
+        max-width: 220px !important;
+        min-width: 180px !important;
+        width: auto !important;
+
+    }
+}
+@media (min-width: 992px) {
+    .sidebar-filter{
+        width: 245px;
+    }
+}
+.product-box .product-item{
+    transition: 0.3s; 
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 0;
+    border-top-right-radius: 5px;
+  }
+.product-box .product-item .product_buttons{
+    font-size: 0.75rem;
+    gap: 2px;
+  }
+.product-box .product-item .product_buttons .btn{
+    font-size: 0.75rem;
+    white-space: nowrap;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 2px;
+  }
+  @media (max-width: 1380px){
+      .product-box .product-item .product_buttons .btn{
+            font-size: 0.70rem;
+            white-space: nowrap;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: 2px;
+          }
+  }
+.product-box .product-item .product_buttons .buy_now{
+    background: var(--primary);
+    color: white;
+  }
+.product-box .product-item .product_buttons .add_cart{
+    border: 2px solid var(--primary);
+    color: rgb(26, 25, 25);
+  }
+.product-box .product-item:hover{
+    box-shadow: 0 0 9px #0000003b;
+  }
+.product-box .product-item .product_thumb{
+} 
+.product-box .product-item .product_thumb a img{
+    max-width: 100%;
+} 
+.product-box .product-item .product_thumb .primary_img img{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.product-box .product-item .label_product {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 1px 10px;
+    text-align: center;
+    background: var(--primary);
+    border-radius: 3px; 
+}
+
+.product-box .flash-sale .product-item .label_product {
+    background: #F17E23;
+}
+.product-box .flash-sale .product-item {
+    max-width: auto !important;
+}
+.product-box .product-item .label_product span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.action_links{
+    display: none;
+}
+.product-box .product-item .product_content {
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.product-box .product-item .product_content h4 {
+    line-height: 20px;
+    display: block;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0;
+    min-height: 42px;
+}
+.product-box .product-item .product_content h4 a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 0.875rem;
+}
+.product-box .product-item .product_content h4 a:hover {
+    color: #fdb813;
+}
+.product-box .product-item .product_content .price_box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
+    gap: 8px;
+}
+.product-box .product-item .product_content .price_box span.current_price {
+    color: #f30;
+    font-weight: 600;
+    font-size: 15px;
+}
+.product-box .product-item .product_content .price_box span.old_price {
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#clockdiv {
+    font-family: GalaxieCondensedMedium,Arial,sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #732d27;
+    margin-right: 10px;
+}
+#clockdiv > div {
+    border-radius: 3px;
+    display: flex;
+    margin-right: 10px;
+}
+#clockdiv div > span {
+    padding: 0 10px;
+    border-radius: 3px;
+    background: #e73a2a;
+    display: inline-block;
+}
+#clockdiv >div >div{
+    margin-right: 5px;
+}
